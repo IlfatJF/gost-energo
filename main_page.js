@@ -1,10 +1,10 @@
 /*mainpage animation*/
 var sc = 0;
 
-window.setInterval(Rotate_page,10000);
+window.setInterval(Rotate_page(),10000);
 
 function Rotate_page(page){
-    if(sc==0){sc=1;}
+    if(sc===0){sc=1;}
     btn_name = "n"+sc;
     btn_bg = "url('../img/"+sc+"_passiv.png')";
     $('btn_name').css("background", btn_bg);
