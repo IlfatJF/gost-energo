@@ -1,0 +1,106 @@
+#main_page{
+    width: 1050px;
+    height: 100%;
+    margin: 0px auto;
+    z-index: 10;
+    box-sizing: border-box;
+}
+
+#main_page section {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+     
+}
+
+section#slide{
+    
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    box-sizing: border-box;
+    padding: 150px 30px 10px 30px;
+    background: url("../img/slide1.jpg") no-repeat;
+    background-size: 1050px 100%;
+    transition: opacity 0.3s, visibility 0s linear 0.3s;
+    transition-delay: 0.1s
+}
+
+.simpleTabs, .simpleTabs ul, .simpleTabs ul li, .simpleTabs ul li a{
+    box-sizing: border-box;
+    height: 29px;
+    margin: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    
+}
+
+.simpleTabs ul li, .simpleTabs ul li a{
+    width: 31px;
+}
+
+.simpleTabs{
+    position: absolute;
+    top: 0px;
+    margin-top: 30%;
+    left: 100px;
+}
+
+.simpleTabs ul{
+    list-style: none;
+}
+
+.simpleTabs ul li{
+    display: inline-block;
+    background-size: 30px 29px;
+}
+
+.simpleTabs ul li a{
+    display: block;
+}
+
+li#n1{
+    background: url("../img/1_passiv.png");
+}
+li#n2{
+    background: url("../img/2_passiv.png");
+}
+li#n3{
+    background: url("../img/3_passiv.png");
+}
+li#n4{
+    background: url("../img/4_passiv.png");
+}
+li#n5{
+    background: url("../img/5_passiv.png");
+}
+
+h1 {
+color:#0E0E28;
+
+}
+
+.fast_links{
+    z-index: 2;
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    height: 150px;
+    width: 1050px;
+    left: 0px;
+    margin: 0;
+    bottom: 50px;
+    padding: 0px;
+    text-align: right;
+}
+
+.fast_links .fast_links_inner {
+    display: inline-block;
+    background: url("../img/teaser_center.png") repeat-x;
+    width: 250px;
+    box-sizing: border-box;
+    height: 150px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
